@@ -728,7 +728,7 @@ class ProductTableSeeder extends Seeder
             'price' => 8.5,
             'weight' => 3125,
             'offer' => 36,
-            'slug' => 'CervezaPaceña',
+            'slug' => 'CervezaPacena',
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
@@ -740,7 +740,7 @@ class ProductTableSeeder extends Seeder
             'price' => 8.5,
             'weight' => 3125,
             'offer' => 36,
-            'slug' => 'CervezaCusqueñaRubia',
+            'slug' => 'CervezaCusquenaRubia',
         ]);
         $product->save(); 
         $product = new \App\Models\Product([
