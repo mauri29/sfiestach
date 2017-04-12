@@ -3,6 +3,7 @@
 //AUTHENTIFICATION
 Auth::routes();
 
+//REDIS
 Route::get('/mauri', function(){
 	$users = cache()->remember('users', 10, function(){
 		return ['mauri', 'sebas'];
@@ -10,6 +11,14 @@ Route::get('/mauri', function(){
 	dd($users);
 });
 
+//QUEUES
+Route::get('/queue', function(){
+	dispatch(new App\Jobs\LogSomething);
+});
+
+
+
+//HOME
 Route::get('/home', [
 	'uses' => 'HomeController@index',
 	'as' => 'home',
