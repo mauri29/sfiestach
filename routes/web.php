@@ -3,6 +3,13 @@
 //AUTHENTIFICATION
 Auth::routes();
 
+Route::get('/mauri', function(){
+	$users = cache()->remember('users', 10, function(){
+		return ['mauri', 'sebas'];
+	});
+	dd($users);
+});
+
 Route::get('/home', [
 	'uses' => 'HomeController@index',
 	'as' => 'home',

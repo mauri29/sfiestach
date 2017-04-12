@@ -13,6 +13,7 @@
         "jenssegers/date": "^3.2",
         "laravel/framework": "5.3.*",
         "league/flysystem-aws-s3-v3": "~1.0",
+        "predis/predis": "^1.1",
         "pusher/pusher-php-server": "^2.6",
         "stripe/stripe-php": "^4.5",
         "uxweb/sweet-alert": "^1.4"
