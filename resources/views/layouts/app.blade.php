@@ -4,12 +4,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="https://ucarecdn.com/278975b5-c649-41c5-b6f8-dd94fe9ec654/FiestaNeon.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="https://ucarecdn.com/d40cad3c-b529-4cdd-aa59-4340e6d5e7d3/Favicon.png" type="image/x-icon">
     <meta property="og:site_name" content="superfiesta.ch">
     <link rel="canonical" href="https://www.superfiesta.ch">
-    <meta name="description" content="Bienvenidos a Super Fiesta, el mejor sitio donde encontrarás los productos de tu tierrita.">
+    <meta name="description" content="Willkommen bei Super Fiesta, den besten Ort, um lateinamerikanische Produkte zu finden | Bienvenidos a Super Fiesta, el mejor sitio donde encontrarás los productos de tu tierrita.">
     <meta property="og:image" content="article">
-    <meta property="og:image" content="https://ucarecdn.com/278975b5-c649-41c5-b6f8-dd94fe9ec654/FiestaNeon.jpg">
+    <meta property="og:image" content="https://ucarecdn.com/d40cad3c-b529-4cdd-aa59-4340e6d5e7d3/Favicon.png">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
